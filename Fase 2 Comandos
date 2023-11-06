@@ -1,5 +1,5 @@
-
-
+#Con este comando lo que hacemos es crear un usuario con permisos
+New-ADUser -Name "Admin.parcial1" -Path "OU-Adminisrtador,OU-Usuarios,DC-SAN-GVA,DC=MYLOCAL -SamAccounName "adparcial1" -UserPrincipalName "Adparcial1@san-gva.mylocal " -AccountPaswoerd (ConverTo-SecureString "Siyulin2004 -AsPlainText -force) -GivenName "Admin" -Surname "parcial1" -ChangePasswordAtLogon $true -Enable $true
 
 
 
